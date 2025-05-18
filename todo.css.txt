@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.task-badge {
+  font-size: 0.75rem;
+}
+.overdue {
+  color: red;
+  font-size: 0.8rem;
+}
+.due-soon {
+  color: orange;
+  font-size: 0.8rem;
+}
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.task-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.task-title {
+  font-weight: 500;
+}
+.icon-btn {
+  background: none;
+  border: none;
+  margin-left: 8px;
+  cursor: pointer;
+  color: #333;
+}
+.icon-btn:hover {
+  color: #007bff;
+}
